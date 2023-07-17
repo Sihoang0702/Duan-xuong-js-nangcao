@@ -1,5 +1,9 @@
+
+
 const HomePage = () => {
+
   return (
+   
     <div class="indexWrp website-home-page">
       <div class="blockBanner">
         <div class="main-banner-block">
