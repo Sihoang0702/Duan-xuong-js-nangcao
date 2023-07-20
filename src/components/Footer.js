@@ -1,9 +1,6 @@
-
-
-
 const Footer = () => {
-    return /*html*/ `
-    <div   class="footerBottom tp_footer">
+  return /*html*/ `
+    <div  class="footerBottom tp_footer">
         <div  class="container">
              <div  class="row">
                 <div  class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
@@ -91,8 +88,7 @@ const Footer = () => {
             </div>
         </div>
     </div>
-                        `
-}
+    `;
+};
 
 export default Footer;
-

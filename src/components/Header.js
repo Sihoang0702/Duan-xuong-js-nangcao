@@ -1,5 +1,5 @@
 const Header = () => {
-    return/*html*/ `
+  return /*html*/ `
     <div id="boxMenu">
         <ul class="mainMenu">
             <li>
@@ -147,7 +147,7 @@ const Header = () => {
             </div>
         </div>
     </div>
-    `
-}
+    `;
+};
 
 export default Header;

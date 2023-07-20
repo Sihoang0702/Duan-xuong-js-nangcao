@@ -1,9 +1,9 @@
-
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 const HomePage = () => {
-
-  return (
-   
+  return `
+  ${Header()}
     <div class="indexWrp website-home-page">
       <div class="blockBanner">
         <div class="main-banner-block">
@@ -2471,28 +2471,8 @@ const HomePage = () => {
         </div>
       </div>
     </div>
-  );
+    ${Footer()}
+  `;
 };
 
 export default HomePage;
-
-/*
-<script src="/tp/T0067/js/owl-plugin.js"></script>
-    <script>if ($(window).width() > 768) {
-        var ps = [];
-        $('#load-homeCategoryTab .itemHoverImg').each(function () {
-        ps.push({ id: parseInt($(this).attr('data-id')), code: 2, storeId: 2552 });
-        });
-        if (ps.length > 0) {
-        getallchildimg(ps, function (rs) {
-            if (rs.allImages != "") {
-            $.each(rs.images, function (key, vl) {
-                var target = $('#load-homeCategoryTab .pr' + key);
-                target.find('.default-img').addClass('first-image');
-                target.addClass('added').append('<img class="second-image" src="' + vl + '">');
-            });
-            }
-        });
-        }
-    }</script>
-*/
