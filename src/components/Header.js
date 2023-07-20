@@ -6,39 +6,11 @@ const Header = () => {
                 <a class="tp_menu_item" title="Trang chủ" href="/">Trang chủ</a>
             </li>   
             <li>
-                <a class="tp_menu_item" title="Thời trang nữ" href="/thoi-trang-nu-pc28592.html">Thời trang nữ 
-                <i class="fal fa-angle-down hidden-xs hidden-sm" style="padding-left: 1px"></i>
-                </a>
-                <ul class="level1">
-                    <li class="tp_menu_item">
-                    <a title="Áo " href="/ao-pc28599.html">Áo </a>
-                    </li>
-                    <li class="tp_menu_item">
-                    <a title="Quần" href="/quan-pc28600.html">Quần</a>
-                    </li>
-                    <li class="tp_menu_item">
-                    <a title="Váy " href="/vay-pc28601.html">Váy </a>
-                    </li>
-                    <li class="tp_menu_item">
-                    <a title="Giày dép " href="/giay-dep-pc28602.html">Giày dép </a>
-                    </li>
-                    <li class="tp_menu_item">
-                    <a title="Túi xách " href="/tui-xach-pc28603.html">Túi xách </a>
-                    </li>
-                </ul>
-            </li>
+                <a class="tp_menu_item" title="Trang chủ" href="/shop">Cửa hàng</a>
+            </li>   
             <li>
-                <a class="tp_menu_item" title="Thời trang nam" href="/thoi-trang-nam-pc28593.html">Thời trang nam 
-                <i class="fal fa-angle-down hidden-xs hidden-sm" style="padding-left: 1px"></i>
-                    </a>
-                <ul class="level1">
-                <li class="tp_menu_item"><a title="Áo " href="/ao-pc28636.html">Áo </a></li>
-                <li class="tp_menu_item"><a title="Quần " href="/quan-pc28637.html">Quần </a></li>
-                <li class="tp_menu_item"><a title="Giày dép " href="/giay-dep-pc28638.html">Giày dép </a></li>
-                <li class="tp_menu_item"><a title="Túi" href="/tui-pc28639.html">Túi</a></li>
-                </ul>
+                <a class="tp_menu_item" title="Tin tức" href="/news">Tin tức</a>
             </li>
-            <li><a class="tp_menu_item" title="Tin tức" href="/news">Tin tức</a></li>
         </ul>
     </div>
 
@@ -111,33 +83,8 @@ const Header = () => {
                                                     <a class="tp_menu_item" title="Trang chủ" href="/">Trang chủ</a>
                                                     </li>
                                                     <li>
-                                                        <a class="tp_menu_item" title="Thời trang nữ" href="/thoi-trang-nu-pc28592.html">Thời trang nữ <i class="fal fa-angle-down hidden-xs hidden-sm" style="padding-left: 1px"></i>
-                                                        </a>
-                                                            <ul class="level1">
-                                                                <li class="tp_menu_item">
-                                                                <a title="Áo " href="/ao-pc28599.html">Áo </a>
-                                                                </li>
-                                                                <li class="tp_menu_item"><a title="Quần" href="/quan-pc28600.html">Quần</a>
-                                                                </li>
-                                                                <li class="tp_menu_item"><a title="Váy " href="/vay-pc28601.html">Váy </a>
-                                                                </li>
-                                                                <li class="tp_menu_item"><a title="Giày dép " href="/giay-dep-pc28602.html">Giày dép </a>
-                                                                </li>
-                                                                <li class="tp_menu_item"><a title="Túi xách " href="/tui-xach-pc28603.html">Túi xách </a>
-                                                                </li>
-                                                            </ul>
-                                                    </li>
-                                                    <li>
-                                                        <a class="tp_menu_item"title="Thời trang nam" href="/thoi-trang-nam-pc28593.html">Thời trang nam 
-                                                           <i class="fal fa-angle-down hidden-xs hidden-sm" style="padding-left: 1px"></i>
-                                                        </a>
-                                                        <ul class="level1">
-                                                        <li class="tp_menu_item"><a title="Áo " href="/ao-pc28636.html">Áo </a></li>
-                                                        <li class="tp_menu_item"><a title="Quần " href="/quan-pc28637.html">Quần </a></li>
-                                                        <li class="tp_menu_item"><a title="Giày dép " href="/giay-dep-pc28638.html">Giày dép </a></li>
-                                                        <li class="tp_menu_item"><a title="Túi" href="/tui-pc28639.html">Túi</a></li>
-                                                        </ul>
-                                                    </li>
+                <a class="tp_menu_item" title="Trang chủ" href="/shop">Cửa hàng</a>
+            </li>
                                                     <li><a class="tp_menu_item"title="Tin tức" href="/news">Tin tức</a></li>
                                         </ul>
                             </div>

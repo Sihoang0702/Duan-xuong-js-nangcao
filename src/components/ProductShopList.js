@@ -1,3 +1,5 @@
+import { useEffect, useState } from "../utilities";
+
 const ProductShopListComponent = () => {
   const [products, setProducts] = useState([]);
 
@@ -46,8 +48,8 @@ const ProductShopListComponent = () => {
     ]);
   }, []);
 
-  return products.map((pro) => {
-    return (
+  return `${products.map((pro) => {
+    return `
       <div class="col-lg-3 col-xs-6 col-sm-6 col-md-3 items">
         <div class="productImg">
           <a
@@ -60,7 +62,7 @@ const ProductShopListComponent = () => {
               data-sizes="auto"
               src="https://web.nvnstatic.net/img/lazyLoading.gif?v=2"
               alt="Giày da nam"
-              data-src={pro.image}
+              data-src=${pro.image}
             />
           </a>
           <div class="grid-tools">
@@ -79,20 +81,20 @@ const ProductShopListComponent = () => {
               href="/giay-da-nam-p1170651.html"
               title="Giày da nam"
             >
-              {pro.name}
+              ${pro.name}
             </a>
           </h2>
           <div class="blockCartPrd">
             <div class="price">
               <span class="currentPrice tp_product_price">
-                {pro.price} VNĐ{" "}
+                ${pro.price} VNĐ
               </span>
             </div>
           </div>
         </div>
       </div>
-    );
-  });
+    `;
+  })}`;
 };
 
 export default ProductShopListComponent;

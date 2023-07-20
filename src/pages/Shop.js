@@ -1,8 +1,11 @@
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import ProductShopListComponent from "../components/ProductShopList";
 
 const ShopPage = () => {
-  return (
-    <div
+  return `
+  ${Header()}
+  <div
       class="productCategory"
       id="PageContainer"
       url="product/category"
@@ -21,7 +24,7 @@ const ShopPage = () => {
                     <li class="filter-expander">
                       <button class="button-reset">
                         <a class="btnCategory">
-                          Bộ lọc{" "}
+                          Bộ lọc
                           <span class="arrow">
                             <i class="fal fa-angle-down"></i>
                           </span>
@@ -31,7 +34,7 @@ const ShopPage = () => {
                     <li class="filter-expander">
                       <button class="button-reset">
                         <a href="/cart">
-                          Giỏ hàng{" "}
+                          Giỏ hàng
                           <i
                             aria-hidden="true"
                             class="fal fa-shopping-bag"
@@ -44,7 +47,7 @@ const ShopPage = () => {
                   <div class="blockAttrList">
                     <div class="blockAttrCategory filter-price tp_product_category_filter_price">
                       <h3>
-                        Khoảng giá{" "}
+                        Khoảng giá
                         <i class="fal fa-angle-down hidden-lg hidden-md"></i>
                       </h3>
                       <ul
@@ -56,7 +59,7 @@ const ShopPage = () => {
                             Từ
                             <span id="price_form" data-size="0">
                               0đ
-                            </span>{" "}
+                            </span>
                             :
                             <span
                               id="price_to"
@@ -75,7 +78,7 @@ const ShopPage = () => {
                       colum="i4"
                     >
                       <h3>
-                        Màu sắc{" "}
+                        Màu sắc
                         <i class="fal fa-angle-down hidden-lg hidden-md"></i>
                       </h3>
                       <ul class="grid mg-left-0 no-bullets filter-variant filter-color clearfix ">
@@ -113,7 +116,7 @@ const ShopPage = () => {
                       colum="i5"
                     >
                       <h3>
-                        Kích cỡ{" "}
+                        Kích cỡ
                         <i class="fal fa-angle-down hidden-lg hidden-md"></i>
                       </h3>
                       <ul class="grid mg-left-0 no-bullets filter-variant filter-color clearfix ">
@@ -234,10 +237,8 @@ const ShopPage = () => {
                   </div>
                   <div id="resultAjax" class="collection-body">
                     <div class="productCategory products">
-                      {/* <!-- Product List --> */}
-                      <ProductShopListComponent />
+                      ${ProductShopListComponent()}
                     </div>
-                    {/* Phân trang */}
                     <div class="pagination">
                       <div class="links col-lg-12 col-md-12 col-xs-12 col-sm-12">
                         <div class="paginator">
@@ -254,5 +255,8 @@ const ShopPage = () => {
         </div>
       </div>
     </div>
-  );
+    ${Footer()}
+  `;
 };
+
+export default ShopPage;
