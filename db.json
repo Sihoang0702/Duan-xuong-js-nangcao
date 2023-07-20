@@ -1,5 +1,50 @@
 {
-    "users": [{
-        
-    }]
+    "products": [
+    {
+      "name": "Apple Watch Ultra GPS ihihi",
+      "price": 1900,
+      "image": "https://picsum.photos/150/100",
+      "quantity":10,
+      "size":"s",
+      "description":"Mô tả 1",
+      "categoryId":1,
+      "id": 1
+    },
+    {
+      "name": "Apple Watch Ultra GPS",
+      "price": 12345,
+      "image": "https://picsum.photos/150/100",
+      "quantity":20,
+      "size":"m",
+      "description":"Mô tả 22",
+      "categoryId":2,
+      "id": 2
+    },
+    {
+      "name": "Apple Watch Ultra GPS ihihi",
+      "price": 99999,
+      "image": "https://picsum.photos/150/100",
+      "quantity":10,
+      "size":"l",
+      "description":"Mô tả 3",
+      "categoryId":3,
+      "id": 3
+    }
+],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Loại 1"
+        },
+        {
+            "id": 2,
+            "name": "Loại 2"
+        },
+        {
+            "id": 3,
+            "name": "Loại 3"
+        }
+]
+    
+
 }
