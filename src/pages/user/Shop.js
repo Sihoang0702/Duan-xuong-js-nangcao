@@ -1,6 +1,6 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import ProductShopListComponent from "../components/ProductShopList";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import ProductShopListComponent from "../../components/ProductShopList";
 
 const ShopPage = () => {
   return `
