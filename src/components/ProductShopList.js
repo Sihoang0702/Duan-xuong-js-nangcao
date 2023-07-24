@@ -48,8 +48,9 @@ const ProductShopListComponent = () => {
     ]);
   }, []);
 
-  return `${products.map((pro) => {
-    return `
+  return `${products
+    .map((pro) => {
+      return `
       <div class="col-lg-3 col-xs-6 col-sm-6 col-md-3 items">
         <div class="productImg">
           <a
@@ -58,11 +59,11 @@ const ProductShopListComponent = () => {
             data-id="1170651"
           >
             <img
-              class="lazyload default-img"
+              class="  default-img"
               data-sizes="auto"
-              src="https://web.nvnstatic.net/img/lazyLoading.gif?v=2"
+              src="${pro.image}"
               alt="Giày da nam"
-              data-src=${pro.image}
+              data-src="${pro.image}"
             />
           </a>
           <div class="grid-tools">
@@ -94,7 +95,8 @@ const ProductShopListComponent = () => {
         </div>
       </div>
     `;
-  })}`;
+    })
+    .join("")}`;
 };
 
 export default ProductShopListComponent;

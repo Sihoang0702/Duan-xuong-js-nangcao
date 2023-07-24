@@ -1,5 +1,10 @@
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+
 const News = () => {
-  return ` <!-- Container for demo purpose -->
+  return /*html*/ ` 
+    ${Header()}
+  <!-- Container for demo purpose -->
   <div class="container my-24 mx-auto md:px-6">
       <!-- Section: Design Block -->
       <section class="mb-32">
@@ -129,7 +134,9 @@ const News = () => {
 
 
           </div>
-      </section>`;
+      </section>
+      ${Footer()}
+      `;
 };
 
 export default News;

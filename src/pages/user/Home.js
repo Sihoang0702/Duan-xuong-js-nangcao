@@ -170,7 +170,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  80,000 VNĐ{" "}
+                                  80,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -222,7 +222,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  70,000 VNĐ{" "}
+                                  70,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -274,7 +274,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  60,000 VNĐ{" "}
+                                  60,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -326,7 +326,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  125,000 VNĐ{" "}
+                                  125,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -378,7 +378,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  80,000 VNĐ{" "}
+                                  80,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -430,7 +430,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  70,000 VNĐ{" "}
+                                  70,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -482,7 +482,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  60,000 VNĐ{" "}
+                                  60,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -534,7 +534,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  125,000 VNĐ{" "}
+                                  125,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -586,7 +586,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  80,000 VNĐ{" "}
+                                  80,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -638,7 +638,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  70,000 VNĐ{" "}
+                                  70,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -690,7 +690,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  60,000 VNĐ{" "}
+                                  60,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -741,7 +741,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  125,000 VNĐ{" "}
+                                  125,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -764,7 +764,7 @@ const HomePage = () => {
                   style="display: block;text-align: right;margin-top: 35px;color: red;font-weight: 600;"
                   href="/thoi-trang-nu-pc28592.html"
                 >
-                  -&gt; Xem thêm{" "}
+                  -&gt; Xem thêm
                 </a>
               </div>
             </div>
@@ -838,7 +838,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -890,7 +890,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -942,7 +942,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -994,7 +994,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  90,000 VNĐ{" "}
+                                  90,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1046,7 +1046,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1098,7 +1098,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1150,7 +1150,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1202,7 +1202,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1254,7 +1254,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1306,7 +1306,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1358,7 +1358,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  90,000 VNĐ{" "}
+                                  90,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1410,7 +1410,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1462,7 +1462,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1514,7 +1514,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1566,7 +1566,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  120,000 VNĐ{" "}
+                                  120,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1590,7 +1590,7 @@ const HomePage = () => {
                 style="display: block;text-align: right;margin-top: 35px;color: red;font-weight: 600;"
                 href="/thoi-trang-nu-pc28592.html"
               >
-                -&gt; Xem thêm{" "}
+                -&gt; Xem thêm
               </a>
               <div class="blockSlide">
                 <div class="prdTitle bg">
@@ -1657,7 +1657,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  550,000 VNĐ{" "}
+                                  550,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1705,7 +1705,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  1,199,000 VNĐ{" "}
+                                  1,199,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1753,7 +1753,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  1,500,000 VNĐ{" "}
+                                  1,500,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1801,7 +1801,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  499,000 VNĐ{" "}
+                                  499,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1853,7 +1853,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  850,000 VNĐ{" "}
+                                  850,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1905,7 +1905,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  1,500,000 VNĐ{" "}
+                                  1,500,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -1953,7 +1953,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  1,300,000 VNĐ{" "}
+                                  1,300,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -2001,7 +2001,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  550,000 VNĐ{" "}
+                                  550,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -2049,7 +2049,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  1,199,000 VNĐ{" "}
+                                  1,199,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -2097,7 +2097,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  1,500,000 VNĐ{" "}
+                                  1,500,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -2145,7 +2145,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  499,000 VNĐ{" "}
+                                  499,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -2196,7 +2196,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  850,000 VNĐ{" "}
+                                  850,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -2247,7 +2247,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  1,500,000 VNĐ{" "}
+                                  1,500,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -2294,7 +2294,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  1,300,000 VNĐ{" "}
+                                  1,300,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -2341,7 +2341,7 @@ const HomePage = () => {
                             <div class="blockCartPrd">
                               <div class="price">
                                 <span class="currentPrice tp_product_price">
-                                  550,000 VNĐ{" "}
+                                  550,000 VNĐ
                                 </span>
                               </div>
                             </div>
@@ -2365,7 +2365,7 @@ const HomePage = () => {
                 style="display: block;text-align: right;margin-top: 35px;color: red;font-weight: 600;"
                 href="/thoi-trang-nam-pc28593.html"
               >
-                -&gt; Xem thêm{" "}
+                -&gt; Xem thêm
               </a>
             </section>
           </div>

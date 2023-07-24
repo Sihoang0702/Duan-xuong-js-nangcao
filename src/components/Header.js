@@ -1,5 +1,218 @@
 const Header = () => {
   return /*html*/ `
+  <link
+      rel="preload"
+      href="https://web.nvnstatic.net/css/bootstrap3.2.0.css?v=2"
+      as="style"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/css/fontAwesome/fontawesome-5.0.13.min.css?v=2"
+      as="style"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/js/jquery/fancybox-2.1.5/source/jquery.fancybox.css?v=2"
+      as="style"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/css/owlCarousel/owl.carousel.min.2.3.4.css?v=2"
+      as="style"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/js/mmenu/css/jquery.mmenu.css?v=2"
+      as="style"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/css/font.css?v=2"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="https://web.nvnstatic.net/css/bootstrap3.2.0.css?v=2"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://web.nvnstatic.net/css/fontAwesome/fontawesome-5.0.13.min.css?v=2"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://web.nvnstatic.net/js/jquery/fancybox-2.1.5/source/jquery.fancybox.css?v=2"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://web.nvnstatic.net/css/owlCarousel/owl.carousel.min.2.3.4.css?v=2"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://web.nvnstatic.net/js/mmenu/css/jquery.mmenu.css?v=2"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://web.nvnstatic.net/css/font.css?v=2"
+      type="text/css"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/tp/T0067/css/jqui.css?v=77"
+      as="style"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/tp/T0067/css/style.css?v=77"
+      as="style"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/tp/T0067/css/responsive.css?v=77"
+      as="style"
+    />
+    <link
+      rel="stylesheet"
+      href="https://web.nvnstatic.net/tp/T0067/css/jqui.css?v=77"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://web.nvnstatic.net/tp/T0067/css/style.css?v=77"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://web.nvnstatic.net/tp/T0067/css/responsive.css?v=77"
+      type="text/css"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/js/jquery/jquery.min.js?v=2"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/js/lib.js?v=2"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/js/jquery/jquery.cookie.js?v=2"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/js/jquery/jquery-ui-1.10.3.custom.min.js?v=2"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/js/bootstrap/bootstrap-3.3.2.min.js?v=2"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/js/jquery/fancybox-2.1.5/source/jquery.fancybox.pack.js?v=2"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/js/owlCarousel/owl.carousel.min.js?v=2"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/js/mmenu/js/jquery.mmenu.min.js?v=2"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/js/jquery/jquery.number.min.js?v=2"
+      as="script"
+    />
+    <script
+      defer
+      type="text/javascript"
+      src="https://web.nvnstatic.net/js/jquery/jquery.min.js?v=2"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://web.nvnstatic.net/js/lib.js?v=2"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://web.nvnstatic.net/js/jquery/jquery.cookie.js?v=2"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://web.nvnstatic.net/js/jquery/jquery-ui-1.10.3.custom.min.js?v=2"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://web.nvnstatic.net/js/bootstrap/bootstrap-3.3.2.min.js?v=2"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://web.nvnstatic.net/js/jquery/fancybox-2.1.5/source/jquery.fancybox.pack.js?v=2"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://web.nvnstatic.net/js/owlCarousel/owl.carousel.min.js?v=2"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://web.nvnstatic.net/js/mmenu/js/jquery.mmenu.min.js?v=2"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://web.nvnstatic.net/js/jquery/jquery.number.min.js?v=2"
+    ></script>
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/tp/T0067/js/owl-plugin.js?v=29"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="https://web.nvnstatic.net/tp/T0067/js/script.js?v=29"
+      as="script"
+    />
+    <script
+      defer
+      type="text/javascript"
+      src="https://web.nvnstatic.net/tp/T0067/js/owl-plugin.js?v=29"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://web.nvnstatic.net/tp/T0067/js/script.js?v=29"
+    ></script>
+    <script
+      src="https://pos.nvnstatic.net/cache/location.vn.js?v=230613_232334"
+      defer
+    ></script>
+    <script
+      src="https://web.nvnstatic.net/js/lazyLoad/lazysizes.min.js"
+      async
+    ></script>
+    <script
+      src="https://web.nvnstatic.net/js/translate/vi-vn.js"
+      defer
+    ></script>
+    
     <div id="boxMenu">
         <ul class="mainMenu">
             <li>
@@ -66,8 +279,9 @@ const Header = () => {
                             <a href="https://www.facebook.com/nhanh.vn" class="ico-fb"><i class="fab fa-facebook-f"></i></a>
                             <a href="" class="ico-ins"><i class="fab fa-instagram"></i></a>
                             <a href="" class="ico-you"><i class="fab fa-youtube"></i></a>
-                            <a href="/user/signin"><i class="fal fa-user-circle"></i></a>
+                            <a href="/#/user/signin"><i class="fal fa-user-circle"></i></a>
                             <a href="/cart" class="top-cart"><i class="fal fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                            <a href="/admin">Admin</a>
                         </div>
                     </div>
                 </div>
@@ -83,8 +297,8 @@ const Header = () => {
                                                     <a class="tp_menu_item" title="Trang chủ" href="/">Trang chủ</a>
                                                     </li>
                                                     <li>
-                <a class="tp_menu_item" title="Trang chủ" href="/shop">Cửa hàng</a>
-            </li>
+                                                        <a class="tp_menu_item" title="Trang chủ" href="/shop">Cửa hàng</a>
+                                                    </li>
                                                     <li><a class="tp_menu_item"title="Tin tức" href="/news">Tin tức</a></li>
                                         </ul>
                             </div>
