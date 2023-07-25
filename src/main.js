@@ -1,5 +1,4 @@
 import DashboardPage from "./pages/admin/Dashboard";
-import EditProduct from "./pages/admin/Product/EditProduct";
 import ListProduct from "./pages/admin/Product/ListProduct";
 import Signin from "./pages/auth/Signin";
 import Signup from "./pages/auth/Signup";
@@ -7,6 +6,8 @@ import HomePage from "./pages/user/Home";
 import News from "./pages/user/News";
 import ShopPage from "./pages/user/Shop";
 import { render, router } from "./utilities";
+import AddProduct from "./pages/admin/Product/AddProduct";
+import EditProduct from "./pages/admin/Product/EditProduct";
 
 const app = document.querySelector("#app");
 
@@ -48,10 +49,10 @@ router.on("/admin/product", () => {
   return render(ListProduct, app);
 });
 router.on("/admin/product/add", () => {
-  return render(ListProduct, app);
+  return render(AddProduct, app);
 });
 router.on("/admin/product/:id/edit", ({ data }) => {
-  return render(EditProduct(data), app);
+  return render(() => EditProduct(data), app);
 });
 //admin Category routes
 router.on("/admin/category", () => {
@@ -61,6 +62,6 @@ router.on("/admin/category/add", () => {
   return render(ListProduct, app);
 });
 router.on("/admin/category/:id/edit", ({ data }) => {
-  return render(EditProduct(data), app);
+  return render(() => EditProduct(data), app);
 });
 router.resolve();
