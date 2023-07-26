@@ -1,6 +1,6 @@
 const FooterAdmin = () => {
-  return `
-    <footer class="pt-4">
+  return /*html*/ `
+    <footer class="pt-4" style="margin-top: 200px">
           <div class="w-full px-6 mx-auto">
             <div class="flex flex-wrap items-center -mx-3 lg:justify-between">
               <div

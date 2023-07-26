@@ -1,5 +1,3 @@
-
-
 import AddCategory from "./pages/admin/Category/AddCategory";
 import EditCategory from "./pages/admin/Category/EditCategory";
 import ListCategory from "./pages/admin/Category/ListCategory";
@@ -60,25 +58,21 @@ router.on("/admin/product/:id/edit", ({ data }) => {
 });
 //admin Category routes
 router.on("/admin/category", () => {
-
   return render(ListCategory, app);
-
-  return render(ListProduct, app);
 });
 router.on("/admin/category/add", () => {
   return render(ListProduct, app);
 });
 router.on("/admin/category/:id/edit", ({ data }) => {
   return render(() => EditProduct(data), app);
-
 });
 
-router.on('/admin/category/add',() =>{
-  return render (AddCategory,app)
-})
-router.on('/admin/category/update/:id',({ data }) =>{
-  return render(() =>{
-      return EditCategory(data)
-  },app)
-})
+router.on("/admin/category/add", () => {
+  return render(AddCategory, app);
+});
+router.on("/admin/category/update/:id", ({ data }) => {
+  return render(() => {
+    return EditCategory(data);
+  }, app);
+});
 router.resolve();

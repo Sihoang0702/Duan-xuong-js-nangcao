@@ -1,10 +1,16 @@
 {
-  "products": [],
-  "categories": [
+  "products": [
     {
-      "id": 6,
-      "name": "loại 1"
-    },
+      "name": "Huyền Trang ",
+      "image": "https://1.bp.blogspot.com/-JCauUwpLi9w/XqehNEdWtCI/AAAAAAAAjXY/i_WaLvM-JykKOH_USAFrTsLTrHdYVJ0hwCLcBGAsYHQ/s1600/Hinh-anh-cho-con-de-thuong%2B%252813%2529.jpg",
+      "price": "2900000",
+      "quantity": "978",
+      "description": "kjn",
+      "categoryId": "7",
+      "id": 1
+    }
+  ],
+  "categories": [
     {
       "id": 7,
       "name": "loại 3"
@@ -18,8 +24,8 @@
       "id": 9
     },
     {
-      "name": "b4",
-      "id": 10
+      "id": 10,
+      "name": "loai 6"
     }
   ]
 }
