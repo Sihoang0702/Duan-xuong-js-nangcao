@@ -10,22 +10,22 @@ const Footer = () => {
                             <ul>
                                 <li>
                                     <span style="font-size:12px;">
-                                        <span style="color:#808080;">Về chúng tôi</span>
+                                        <a href="#" style="color:#808080;">Về chúng tôi</a>
                                     </span>
                                 </li>
                                 <li>
                                     <span style="font-size:12px;">
-                                        <span style="color:#808080;">Đổi trả sản phẩm</span>
+                                        <a href="#" style="color:#808080;">Đổi trả sản phẩm</a>
                                     </span>
                                 </li>
                                 <li>
                                     <span style="font-size:12px;">
-                                        <span style="color:#808080;">Các điều khoản và điều kiện</span>
+                                        <a href="#" style="color:#808080;">Các điều khoản và điều kiện</a>
                                     </span>
                                 </li>
                                 <li>
                                     <span style="font-size:12px;">
-                                    <span style="color:#808080;">Chính sách bảo mật </span>
+                                    <a href="#" style="color:#808080;">Chính sách bảo mật </a>
                                     </span>
                                 </li>
                             </ul>
@@ -35,12 +35,12 @@ const Footer = () => {
                             <ul>
                                 <li>
                                     <a>
-                                    <span style="color:#808080;">Facebook </span>
+                                    <a href="#" style="color:#808080;">Facebook </a>
                                     </a>
                                 </li>
                                 <li>
                                     <a>
-                                    <span style="color:#808080;">Instagram</span>
+                                    <a href="#" style="color:#808080;">Instagram</a>
                                     </a>
                                 </li>
                             </ul>
@@ -50,27 +50,27 @@ const Footer = () => {
                             <ul>
                                 <li>
                                     <span style="font-size:12px;">
-                                    <span style="color:#808080;">Liên hệ chúng tôi </span>
+                                    <a href="#" style="color:#808080;">Liên hệ chúng tôi </a>
                                     </span>
                                     </li>
                                 <li>
                                     <span style="font-size:12px;">
                                         <a>
-                                        <span style="color:#808080;">Phiếu quà tặng </span>
+                                        <a href="#" style="color:#808080;">Phiếu quà tặng </a>
                                         </a>
                                     </span>
                                 </li>
                                 <li>
                                     <span style="font-size:12px;">
                                         <a>
-                                        <span style="color:#808080;">Câu hỏi thường gặp </span>
+                                        <a href="#" style="color:#808080;">Câu hỏi thường gặp </a>
                                         </a>
                                     </span>
                                 </li>
                                 <li>
                                     <span style="font-size:12px;">
                                         <a>
-                                        <span style="color:#808080;">Thông tin vận chuyển </span>
+                                        <a href="#" style="color:#808080;">Thông tin vận chuyển </a>
                                         </a>
                                     </span>
                                 </li>

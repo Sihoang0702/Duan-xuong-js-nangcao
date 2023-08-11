@@ -11,11 +11,17 @@ import ShopPage from "./pages/user/Shop";
 import { render, router } from "./utilities";
 import AddProduct from "./pages/admin/Product/AddProduct";
 import EditProduct from "./pages/admin/Product/EditProduct";
+import CartPage from "./pages/user/CartPage";
+
 
 const app = document.querySelector("#app");
 
 router.on("/", () => {
   return render(HomePage, app);
+});
+
+router.on("/cart", () => {
+  return render(CartPage, app);
 });
 
 router.on("/shop", () => {
